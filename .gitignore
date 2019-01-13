@@ -1,0 +1,8 @@
+# Configuration files
+config.h
+
+# Object files
+*.o
+
+# Binary files
+dwm
