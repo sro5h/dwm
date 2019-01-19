@@ -12,7 +12,14 @@ static const char *fonts[]             = { "monospace:size=10" };
 static const char dmenufont[]          = "monospace:size=10";
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[][2] = {
+	/* normal    selected */
+	{ "1",       "a" },
+	{ "2",       "b" },
+	{ "3",       "c" },
+	{ "4",       "d" },
+	{ "5",       "e" }
+};
 
 static const Rule rules[] = {
 	/* xprop(1):
