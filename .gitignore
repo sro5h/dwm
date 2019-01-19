@@ -1,5 +1,5 @@
 # Configuration files
-config.h
+colors.h
 
 # Object files
 *.o

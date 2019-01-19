@@ -17,7 +17,10 @@ options:
 .c.o:
 	${CC} -c ${CFLAGS} $<
 
-${OBJ}: config.h config.mk
+${OBJ}: colors.h config.h config.mk
+
+colors.h:
+	cp colors.def.h $@
 
 config.h:
 	cp config.def.h $@
